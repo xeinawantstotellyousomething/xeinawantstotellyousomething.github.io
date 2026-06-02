@@ -8,18 +8,20 @@
         body {
             background-color: #000000;
             color: #ffffff;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Helvetica fontu eklendi */
             padding: 40px;
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.6;
+            letter-spacing: -0.02em; /* Yazıları biraz daha sıkı ve karizmatik yapar */
         }
         h1 {
-            font-size: 20px;
-            font-weight: normal;
+            font-size: 18px;
+            font-weight: bold;
             border-bottom: 1px solid #222;
             padding-bottom: 15px;
             margin-bottom: 10px;
+            letter-spacing: -0.03em;
         }
         .site-counter {
             margin-bottom: 40px;
@@ -33,7 +35,7 @@
         }
         .date {
             color: #555;
-            font-size: 12px;
+            font-size: 11px;
             margin-bottom: 8px;
         }
         .post-footer {
@@ -44,10 +46,12 @@
         p {
             margin: 0;
             white-space: pre-line;
+            font-size: 15px;
         }
         img {
             vertical-align: middle;
             margin-left: 5px;
+            filter: grayscale(100%); /* Sayaçları tamamen siyah-beyaz yapar */
         }
     </style>
 </head>
